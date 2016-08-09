@@ -11,7 +11,7 @@ class { 'r10k':
   version           => '2.1.1',
   sources           => {
     'puppet' => {
-      'remote'  => 'git@github.com:puppetinabox/controlrepo.git',
+      'remote'  => 'git@github.com:garyttt/controlrepo.git',
       'basedir' => $::settings::environmentpath,
       'prefix'  => false,
     },
